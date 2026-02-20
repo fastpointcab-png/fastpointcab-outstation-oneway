@@ -223,18 +223,19 @@ export const BookingForm: React.FC = () => {
 
   const style = document.createElement("style");
 style.innerHTML = `
-.pac-container {
-  background-color: #ffffff !important;
-  border-radius: 16px !important;
-  border: 1px solid #e5e7eb !important;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
-  padding: 6px 0 !important;
-  z-index: 99999 !important;
-  position: fixed !important;       /* mobile fix */
-  max-height: 40vh !important;
-  overflow-y: auto !important;
-  font-family: 'Inter', sans-serif !important;
-}
+   .pac-container {
+      background-color: #ffffff !important;
+      border-radius: 16px !important;
+      border: 1px solid #e5e7eb !important;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
+      padding: 6px 0 !important;
+      z-index: 99999 !important;
+
+      /* 🔥 CRITICAL MOBILE FIX */
+      position: fixed !important;
+      max-height: 40vh !important;
+      overflow-y: auto !important;
+    }
 
 .pac-item {
   padding: 10px 16px !important;
@@ -267,6 +268,7 @@ style.innerHTML = `
 .pac-logo:after {
   opacity: 0.6 !important; /* subtle "Powered by Google" */
 }
+  
 `;
 
   document.head.appendChild(style);
