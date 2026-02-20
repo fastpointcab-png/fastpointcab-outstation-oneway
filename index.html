@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+  <link rel="icon" type="/image/png" href="/images/trusty favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#FF6467" />
+    <meta name="description" content="Discover the best of travel in Coimbatore with FastPoint Cab. Premier outstation taxi service offering one-way and round-trip cabs from Kovai with 24/7 reliability." />
+    <meta name="keywords" content="Travel in Coimbatore, Coimbatore Outstation Cabs, Taxi Booking Coimbatore, One Way Taxi Coimbatore, Coimbatore Sightseeing Cab, Kovai Outstation Taxi, Coimbatore to Ooty Cab, Coimbatore to Munnar Taxi" />
+    <title>Coimbatore | Best Outstation & One Way Taxi Booking</title>
+    
+    <!-- Modern Font Family: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            },
+            colors: {
+              'brand-red': '#FF6467',
+              'brand-pink': '#FF8A71',
+              'brand-accent': '#D4145A',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'shake': 'shake 4s cubic-bezier(.36,.07,.19,.97) infinite',
+              'scroll': 'scroll 120s linear infinite',
+              'scroll-reverse': 'scrollReverse 120s linear infinite',
+              'glow-flow': 'glowFlow 3s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              shake: {
+                '0%, 100%': { transform: 'translateX(0)' },
+                '2%, 18%': { transform: 'translateX(-5px)' },
+                '4%, 16%': { transform: 'translateX(5px)' },
+                '6%, 10%, 14%': { transform: 'translateX(-5px)' },
+                '8%, 12%': { transform: 'translateX(5px)' },
+                '20%': { transform: 'translateX(0)' }, 
+              },
+              scroll: {
+                '0%': { transform: 'translateX(0)' },
+                '100%': { transform: 'translateX(-100%)' },
+              },
+              scrollReverse: {
+                '0%': { transform: 'translateX(-100%)' },
+                '100%': { transform: 'translateX(0)' },
+              },
+              glowFlow: {
+                '0%, 100%': { boxShadow: '0 0 10px rgba(255, 100, 103, 0.3)' },
+                '50%': { boxShadow: '0 0 20px rgba(255, 100, 103, 0.6)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-padding-top: 5rem;
+      }
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .thin-scrollbar::-webkit-scrollbar {
+        width: 4px;
+      }
+      .thin-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .thin-scrollbar::-webkit-scrollbar-thumb {
+        background: #FF6467;
+        border-radius: 10px;
+      }
+    </style>
+    <link rel="manifest" href="manifest.json">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(registration => {
+              console.log('SW registered: ', registration);
+            })
+            .catch(registrationError => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
