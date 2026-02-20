@@ -222,49 +222,22 @@ export const BookingForm: React.FC = () => {
   // 🔥 Google Autocomplete Light Theme Injection
 
   const style = document.createElement("style");
-style.innerHTML = `
-  .pac-container {
-    background-color: #ffffff !important;
-    border-radius: 16px !important;
-    border: 1px solid #e5e7eb !important;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
-    padding: 6px 0 !important;
-    z-index: 9999 !important;
-    max-height: 400px !important; /* allow scrolling for long lists */
-    overflow-y: auto !important;
-  }
+ style.innerHTML = `
+    .pac-container {
+      background-color: #ffffff !important;
+      border-radius: 16px !important;
+      border: 1px solid #e5e7eb !important;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
+      padding: 6px 0 !important;
+      z-index: 99999 !important;
 
-  .pac-item {
-    padding: 12px 16px !important;
-    font-size: 14px !important;
-    font-weight: 700 !important;
-    color: #111827 !important;
-    transition: all 0.2s ease !important;
-    display: flex !important;
-    flex-direction: column !important;
-    white-space: normal !important; /* allow full address wrap */
-  }
+      /* 🔥 CRITICAL MOBILE FIX */
+      position: fixed !important;
+      max-height: 40vh !important;
+      overflow-y: auto !important;
+    }
+  `;
 
-  .pac-item .pac-item-query {
-    font-weight: 900 !important;
-    color: #ef4444 !important; /* red highlight */
-  }
-
-  .pac-item .pac-item-subtitle {
-    font-weight: 400 !important;
-    font-size: 12px !important;
-    color: #6b7280 !important;
-  }
-
-  .pac-item:hover {
-    background-color: #f3f4f6 !important;
-  }
-
-  /* Subtle "Powered by Google" */
-  .pac-logo:after {
-    opacity: 0.6 !important;
-  }
-`;
   document.head.appendChild(style);
 
 
