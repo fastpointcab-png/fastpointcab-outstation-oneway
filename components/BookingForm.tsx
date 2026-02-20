@@ -194,6 +194,10 @@ export const BookingForm: React.FC = () => {
   }, [formData.tripType]);
 
   useEffect(() => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}, [step]);
+
+  useEffect(() => {
     const now = new Date();
     setIndiaToday(new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now));
 
@@ -422,6 +426,7 @@ style.innerHTML = `
         }
       });
     }
+    
 
     return () => {
       if (directionsRenderer.current) google.maps.event.clearInstanceListeners(directionsRenderer.current);
