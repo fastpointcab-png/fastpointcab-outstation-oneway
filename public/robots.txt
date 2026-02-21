@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /thank-you/
+Disallow: /privacy-policy-download/
+Disallow: /search/
+Disallow: /?*
+
+Sitemap: https://www.coimbatoreoutstationcabs.com/sitemap.xml
