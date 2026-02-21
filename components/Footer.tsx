@@ -92,10 +92,16 @@ export const Footer: React.FC = () => {
   </a>
 
 </div>
-
+  <div className="flex gap-6">
+            <Link to="/about" className="text-[9px] font-black uppercase tracking-widest text-slate-300 dark:text-slate-700 hover:text-brand-red">Privacy</Link>
+            <Link to="/contact" className="text-[9px] font-black uppercase tracking-widest text-slate-300 dark:text-slate-700 hover:text-brand-red">Terms</Link>
+            <Link to="/sitemap" className="text-[9px] font-black uppercase tracking-widest text-slate-300 dark:text-slate-700 hover:text-brand-red">Sitemap</Link>
+          </div>
     </div>
 
       </div>
+
+      
     </footer>
   );
 };

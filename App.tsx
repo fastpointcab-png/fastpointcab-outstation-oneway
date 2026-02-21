@@ -1,5 +1,6 @@
+
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, BrowserRouter, useLocation } from 'react-router-dom';
+import {  BrowserRouter, Routes, Route, HashRouter, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Home } from './pages/Home';
@@ -8,15 +9,18 @@ import { Services } from './pages/Services';
 import { Blog } from './pages/Blog';
 import { About } from './pages/About';
 import { Contact } from './pages/Contact';
+import { RouteDetail } from './pages/RouteDetail';
+import { Sitemap } from './pages/Sitemap';
 import { FloatingCallButton } from './components/FloatingCallButton';
 import { MobileBottomNav } from './components/MobileBottomNav';
+import { Breadcrumbs } from './components/Breadcrumbs';
 
 // Component to handle scroll behavior globally
 const ScrollHandler = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Scroll to element by state
+    // Priority 1: Check for explicit scroll request via state (e.g., from Fleet page)
     if ((location.state as any)?.scrollToBook) {
       const element = document.getElementById('book');
       if (element) {
@@ -27,7 +31,7 @@ const ScrollHandler = () => {
       }
     }
 
-    // Scroll to element by hash (optional, in case you still use #id links)
+    // Priority 2: If there's a hash (like #book), scroll to that element
     if (location.hash) {
       const id = location.hash.replace('#', '');
       const element = document.getElementById(id);
@@ -38,27 +42,18 @@ const ScrollHandler = () => {
         return () => clearTimeout(timer);
       }
     }
-
-    // Scroll to top on page change
+    
+    // Priority 3: Otherwise, scroll to top on page change
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [location.pathname, location.hash, location.state]);
 
   return null;
 };
 
-// Optional: redirect old hash URLs to clean paths
-const HashRedirect = () => {
-  useEffect(() => {
-    if (window.location.hash) {
-      const newPath = window.location.hash.replace('#', '');
-      window.history.replaceState(null, '', newPath);
-    }
-  }, []);
-  return null;
-};
-
 const App: React.FC = () => {
-  const [darkMode, setDarkMode] = useState(() => localStorage.getItem('theme') === 'dark');
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem('theme') === 'dark';
+  });
 
   useEffect(() => {
     if (darkMode) {
@@ -74,10 +69,10 @@ const App: React.FC = () => {
 
   return (
     <BrowserRouter>
-      <HashRedirect />
       <ScrollHandler />
       <div className={`min-h-screen flex flex-col transition-colors duration-300 ${darkMode ? 'dark bg-slate-900' : 'bg-white'}`}>
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+        <Breadcrumbs />
         <main className="flex-grow pt-20">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -86,6 +81,8 @@ const App: React.FC = () => {
             <Route path="/blog" element={<Blog />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/taxi/:routeId" element={<RouteDetail />} />
+            <Route path="/sitemap" element={<Sitemap />} />
           </Routes>
         </main>
         <Footer />
