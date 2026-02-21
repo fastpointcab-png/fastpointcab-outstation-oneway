@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.coimbatoreoutstationcabs.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 1) Service Pages -->
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-taxi-service</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/best-call-taxi-coimbatore</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/book-taxi-online-coimbatore</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-outstation-taxi</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/one-way-taxi-coimbatore</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- 2) Airport Pages -->
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-airport-taxi</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/airport-pickup-coimbatore</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/airport-drop-taxi-coimbatore</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- 3) Hill Station / Tourist Routes -->
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-ooty-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-kodaikanal-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-munnar-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-valparai-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-wayanad-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <!-- 4) Major Cities Outstation Routes (Tamil Nadu & Karnataka) -->
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-chennai-taxi</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-bangalore-taxi</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-madurai-taxi</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-trichy-taxi</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-erode-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-salem-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-tirupur-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-pollachi-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-villupuram-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-karur-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-tirunelveli-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-namakkal-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-vellore-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-hosur-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-mettupalayam-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-thanjavur-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-dindigul-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <!-- 5) Kerala Routes -->
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-kochi-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-thrissur-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-palakkad-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-alleppey-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-trivandrum-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-guruvayur-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-wayanad-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <!-- 6) Pilgrimage / Temple Pages -->
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-tirupati-taxi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-palani-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-guruvayur-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/coimbatore-to-rameshwaram-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <!-- 7) Vehicle Pages -->
+  <url><loc>https://www.coimbatoreoutstationcabs.com/sedan-cab-coimbatore</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/suv-taxi-coimbatore</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/innova-crysta-cab-coimbatore</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/tempo-traveller-coimbatore</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/9-seater-cab-coimbatore</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/12-seater-van-coimbatore</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <!-- 8) Local Area Pages -->
+  <url><loc>https://www.coimbatoreoutstationcabs.com/gandhipuram-taxi-service</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/rs-puram-cab-booking</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/peelamedu-taxi-service</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/saravanampatti-taxi-service</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/singanallur-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/ukkadam-call-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/town-hall-taxi-service</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/saibaba-colony-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/thudiyalur-call-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/vadavalli-taxi-booking</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/podanur-call-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/sundarapuram-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/kuniyamuthur-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/perur-taxi-service</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/kovaipudur-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.coimbatoreoutstationcabs.com/marudamalai-taxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+</urlset>
