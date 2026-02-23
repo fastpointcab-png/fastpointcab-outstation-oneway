@@ -14,10 +14,10 @@ const GOOGLE_MAPS_API_KEY = process.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const PRICING_OUTSTATION_COMPLEX: Record<VehicleType, { oneWay: number; roundTrip: number }> = {
   [VehicleType.ANY_SEDAN]: { oneWay: 15, roundTrip: 13 },
-  [VehicleType.SEDAN]: { oneWay: 17, roundTrip: 14 },
+  [VehicleType.SEDAN]: { oneWay: 16, roundTrip: 14 },
   [VehicleType.ANY_SUV]: { oneWay: 20, roundTrip: 18 },
-  [VehicleType.SUV]: { oneWay: 21, roundTrip: 19 },
-  [VehicleType.INNOVA]: { oneWay: 25, roundTrip: 22 },
+  [VehicleType.SUV]: { oneWay: 20, roundTrip: 18 },
+  [VehicleType.INNOVA]: { oneWay: 22, roundTrip: 20 },
   [VehicleType.TEMPO_TRAVELLER]: { oneWay: 0, roundTrip: 0 },
   [VehicleType.URBANIA]: { oneWay: 0, roundTrip: 0 },
   [VehicleType.TOURIST_BUS]: { oneWay: 0, roundTrip: 0 },
