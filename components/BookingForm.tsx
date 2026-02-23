@@ -492,17 +492,23 @@ style.innerHTML = `
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (formData.phone.length === 10) {
-      setLoading(true);
-      sendBookingEmail(formData).then(() => {
-        setSubmitted(true);
-        setLoading(false);
-      });
-    } else {
-      alert("Enter a valid 10-digit mobile number.");
-    }
-  };
+  e.preventDefault();
+
+  if (formData.phone.length === 10) {
+    setLoading(true);
+
+    sendBookingEmail(formData).then(() => {
+      setSubmitted(true);
+      setLoading(false);
+
+      // ✅ Scroll to top smoothly after booking success
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+  } else {
+    alert("Enter a valid 10-digit mobile number.");
+  }
+};
 
   if (submitted) {
     return (
