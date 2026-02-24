@@ -274,7 +274,7 @@ style.innerHTML = `
 
 
   const calculateFareInternal = useCallback((origin: string, destination: string, vehicle: VehicleType, trip: TripType, distVal: number, distText: string, pickupDate: string, returnDate: string) => {
-    const isShortOutstation = (trip === TripType.ONE_WAY || trip === TripType.ROUND_TRIP) && distVal < 130;
+    const isShortOutstation = (trip === TripType.ONE_WAY || trip === TripType.ROUND_TRIP) && distVal < 87;
 
     if (isShortOutstation) {
   calculateFareInternal(
