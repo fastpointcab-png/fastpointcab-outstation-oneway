@@ -94,7 +94,7 @@ export const Home: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             <div className="space-y-4 md:space-y-6">
               <h2 className="text-2xl md:text-4xl font-black text-slate-900 dark:text-white uppercase tracking-tight leading-none">
-                Outstation Specialist <br/>
+                Outstation Taxi Services <br/>
                 <span className="text-brand-red">Coimbatore</span>
               </h2>
               <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed max-w-md">

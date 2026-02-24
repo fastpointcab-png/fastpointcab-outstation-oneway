@@ -71,9 +71,19 @@ export const Fleet: React.FC = () => {
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand-red/10 text-brand-red rounded-full text-[10px] font-black uppercase tracking-widest mb-4">
             <Gauge size={12} /> Our Fleet & Pricing
           </div>
-          <h1 className="text-3xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 uppercase tracking-tight">
-            Coimbatore Outstation <span className="text-brand-red">Rates</span>
-          </h1>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-4 sm:mb-6 tracking-tight leading-tight px-4 sm:px-0">
+  
+  {/* Mobile Text */}
+  <span className="block sm:hidden">
+    Outstation Fares
+  </span>
+
+  {/* Desktop Text */}
+  <span className="hidden sm:block uppercase">
+    Outstation <span className="text-brand-red">Cab Fare Details</span>
+  </span>
+
+</h1>
           <p className="text-slate-500 dark:text-slate-400 max-w-2xl mx-auto font-bold uppercase tracking-tight text-xs md:text-sm">
             Transparent pricing for long-distance travel. We offer vehicles for every group size and budget.
           </p>

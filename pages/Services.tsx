@@ -170,7 +170,7 @@ export const Services: React.FC = () => {
               
               <div className="relative z-10">
                 <div className="text-[10px] font-black text-brand-red uppercase tracking-[0.4em] mb-4">
-                  Bespoke Travel
+               Taxi Services Available 24/7
                 </div>
                 
                 <h2 className="text-2xl md:text-4xl font-black text-slate-900 dark:text-white uppercase tracking-tighter mb-4 leading-none">
@@ -178,7 +178,7 @@ export const Services: React.FC = () => {
                 </h2>
                 
                 <p className="text-slate-500 dark:text-slate-400 text-sm md:text-base font-bold uppercase tracking-tight mb-8 max-w-md mx-auto leading-relaxed">
-                  Tailored itineraries from Coimbatore to anywhere in South India.
+                  Anywhere to Anywhere Travel Across South India.
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

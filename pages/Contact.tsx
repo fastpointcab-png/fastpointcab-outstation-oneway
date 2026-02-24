@@ -5,7 +5,7 @@ export const Contact: React.FC = () => {
   const [showTerms, setShowTerms] = useState(false);
 
   const handleWhatsAppClick = () => {
-    const text = `Hi, I have an inquiry about your taxi services in Coimbatore.`;
+    const text = `Hello, I would like to inquire about your taxi services.`;
     const phoneNumber = '919488834020';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, '_blank');
@@ -14,15 +14,45 @@ export const Contact: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950 py-20">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-5xl font-black text-brand-red mb-3 uppercase tracking-tight">
-            FastPoint Cab
-          </h1>
+<div className="text-center mb-16">
+  {/* Logo with Modern Card Style */}
+  <div className="flex justify-center mb-6">
+    <div className="relative group">
+      <div className="absolute -inset-1 bg-gradient-to-r from-brand-red to-orange-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
+      
+      <div className="relative bg-white dark:bg-slate-900 rounded-3xl p-6 shadow-xl border border-slate-100 dark:border-slate-800">
+        <img
+          src="/images/taxi-icon-512.png"
+          alt="FastPoint Cab - Coimbatore Taxi Service Logo"
+          className="h-20 md:h-24 w-auto object-contain"
+        />
+      </div>
+    </div>
+  </div>
 
-          <p className="text-base md:text-lg text-slate-600 dark:text-slate-400 max-w-xl mx-auto font-medium">
-            24/7 Outstation, Airport & One-Way Cabs in Coimbatore.
-          </p>
-        </div>
+  {/* Brand Name */}
+  <h1 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-brand-red to-orange-500 bg-clip-text text-transparent tracking-tight">
+    FastPoint Cab
+  </h1>
+
+  {/* Subtitle */}
+  <p className="mt-4 text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto font-medium leading-relaxed">
+    24/7 Outstation • Airport Transfers • One-Way Cabs in Coimbatore
+  </p>
+
+  {/* Trust Badge Row */}
+  <div className="mt-6 flex flex-wrap justify-center gap-3">
+    <span className="px-4 py-2 text-sm font-semibold rounded-full bg-green-100 text-green-700">
+      ✔ Verified Taxi Service
+    </span>
+    <span className="px-4 py-2 text-sm font-semibold rounded-full bg-blue-100 text-blue-700">
+      ✔ 24/7 Customer Support
+    </span>
+    <span className="px-4 py-2 text-sm font-semibold rounded-full bg-yellow-100 text-yellow-700">
+      ✔ Transparent Pricing
+    </span>
+  </div>
+</div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Info Column */}
