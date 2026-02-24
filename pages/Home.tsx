@@ -65,14 +65,16 @@ export const Home: React.FC = () => {
               <span>FastPoint Cab Outstation</span>
             </div>
             
-            <h1 className="text-3xl md:text-6xl font-extrabold text-white leading-[1.1] drop-shadow-lg">
-              Outstation Cabs <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-brand-pink uppercase tracking-tighter">Coimbatore</span>
-            </h1>
-            
-            <p className="text-base text-slate-300 max-w-lg mx-auto lg:mx-0 leading-relaxed font-medium">
-              Premier Coimbatore outstation cab service providing affordable one-way taxis and reliable long-distance travel with 24/7 reliability.
-            </p>
+<h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight px-4 sm:px-0">
+  All State & District Taxi Services Available 24/7
+  <span className="block mt-2 text-gray-300 font-medium text-xl sm:text-2xl md:text-3xl">
+    Outstation Cabs in Coimbatore
+  </span>
+</h1>
+          <p className="text-sm sm:text-base md:text-lg text-slate-300 max-w-lg mx-auto lg:mx-0 leading-relaxed font-medium px-4 sm:px-0">
+  Affordable one-way outstation taxi service with reliable long-distance
+  travel and 24/7 availability.
+</p>
 
             <div className="flex flex-row gap-3 justify-center lg:justify-start items-center">
               <div className="flex items-center gap-2 bg-white/5 px-3 py-1.5 rounded-lg border border-white/10 backdrop-blur-sm font-bold uppercase tracking-widest text-[9px] text-slate-400">
